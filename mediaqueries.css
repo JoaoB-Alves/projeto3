@@ -1,0 +1,187 @@
+@media screen and (max-width: 880px) and (min-width: 100px){
+.nav-ul{
+  display: none;
+}
+.hidden-menu-container{
+  display: flex;
+}
+.mobile-container{
+  display: flex;
+  width: 100%;
+}
+.header-container{
+  flex-direction: column;
+  width: 100%;
+}
+.hidden-menu-ul{
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.hero-container{
+  flex-direction: column-reverse;
+}
+.hero{
+  width: 100%;
+}
+.fold-introdution{
+  width: 100%;
+  padding: 40px 0;
+}
+.awards-container{
+  flex-wrap: wrap;
+}
+.award1, .award2, .award3, .award4{
+  margin: 20px 0;
+}
+header{
+  background: unset;
+  background-color: #D6E5FA;
+}
+.about-container{
+  flex-direction: column;
+}
+.about-image{
+  width: 100%;
+}
+.about-text{
+  width: 100%;
+}
+.chooseus-container{
+  flex-direction: column-reverse;
+}
+.chooseus-image{
+  width: 100%;
+}
+.whychoose-row1, .whychoose-row2{
+  flex-wrap: wrap;
+}
+.item1, .item2, .item3, .item4, .item5, .item6{
+  margin: 20px 0;
+}
+.review-container{
+  flex-wrap: wrap;
+}
+.review1, .review2, .review3{
+  margin: 20px 0;
+}
+.blog-container{
+  flex-wrap: wrap;
+}
+.blog1, .blog2, .blog3{
+  margin: 20px 0;
+}
+.footer-content-container{
+  flex-wrap: wrap;
+  justify-content: unset;
+}
+.logo-area{
+  margin: 20px 0;
+}
+.footer-menu-item1, .footer-menu-item2, .footer-menu-item3{
+  margin: 20px 0;
+}
+
+}
+@media screen and (max-width: 600px) and (min-width: 100px){
+.why-icon{
+  width: 80px;
+}
+.review-title-container{
+  width: 100%;
+}
+
+}
+
+
+@media screen and (max-width: 490px) and (min-width: 100px){
+.fold-introdution{
+  justify-content: center;
+  align-items: center;
+}
+h1,h2{
+  text-align: center;
+}
+.fold-introdution > p{
+  text-align: center;
+}
+.about-text > p{
+  text-align: center;
+}
+.checklist{
+ padding: unset;
+ padding-top: 20px;
+}
+.why1-row, .why2-row, .why3-row, .why4-row{
+  flex-direction: column;
+}
+.why-row1-text, .why-row2-text, .why-row3-text, .why-row4-text{
+  padding: 10px 0;
+}
+.why{
+  width: 100%;
+}
+.review-title-container > p{
+  text-align: center;
+}
+.footer-content-container{
+  justify-content: center;
+  align-items: center;
+}
+.logo-area{
+  width: 100%;
+  align-items: center;
+}
+.footer-menu-item1, .footer-menu-item2, .footer-menu-item3{
+  width: 100%;
+  align-items: center;
+}
+.logo-area > p{
+  text-align: center;
+}
+.menu-item1-ul, .menu-item2-ul, .menu-item3-ul{
+  text-align: center;
+}
+.email-field{
+  width: 60%;
+}
+.nav-buttons{
+  padding: 20px 0;
+}
+
+}
+
+@media screen and (max-width: 340px) and (min-width: 100px){
+.review-section,.blog-section{
+  padding: 20px 0;
+}
+.review1, .review2, .review3{
+  width: 100%;
+}
+.blog1, .blog2, .blog3{
+  width: 100%;
+}
+.hero,.about-image,.chooseus-image{
+  height: 300px;
+}
+.about-button{
+  align-self: center;
+  margin: unset;
+  margin-top: 40px;
+}
+.why1-row, .why2-row, .why3-row, .why4-row{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.email-field{
+  width: 80%;
+}
+.review1{
+  height: 221px;
+}
+.item1 > h3{
+  text-align: center;
+}
+}
